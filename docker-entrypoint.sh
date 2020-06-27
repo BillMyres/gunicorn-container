@@ -2,7 +2,7 @@
 
 # Thomas vanBommel 2020-06
 
-set -e
+# set -e
 
 # if [ "$1" = "gunicorn" ]; then
 cd /root
