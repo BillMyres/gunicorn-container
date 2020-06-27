@@ -15,4 +15,4 @@ COPY ./docker-entrypoint.sh /docker-entrypoint.sh
 
 # set entry point for docker
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["gunicorn"]
+# CMD ["gunicorn"]
