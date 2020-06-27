@@ -1,5 +1,3 @@
-# Thomas vanBommel 2020-06
-
 # use latest from ubuntu
 FROM ubuntu:latest
 
@@ -15,4 +13,3 @@ COPY ./docker-entrypoint.sh /docker-entrypoint.sh
 
 # set entry point for docker
 ENTRYPOINT ["/docker-entrypoint.sh"]
-# CMD ["gunicorn"]
